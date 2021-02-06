@@ -1,0 +1,19 @@
+{
+  "name": "stock-ticker-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.12.13",
+    "parcel-bundler": "^1.12.4"
+  }
+}

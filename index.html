@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock Ticker API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        body{
+            max-width: 500px;
+            margin: auto;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>Stock Ticker</h1>
@@ -12,11 +20,11 @@
 
     <form id="search">
         <div class="control">
-            <label for="symbolSearch">enter</label>
+            <label for="symbolSearch">Enter Stock Symbol</label>
             <input id="symbolSearch" type="search">
         </div>
         <div class="control">
-            <button>Submit</button>
+            <button class="btn btn-primary">Submit</button>
         </div>
     </form>
 
@@ -27,7 +35,6 @@
             <li>Price</li>
             <li></li>
         </ul> -->
-        
     </aside>
     <script src="js/index.js"></script>
 </body>

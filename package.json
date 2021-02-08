@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "watch": "",
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "start": "parcel src/index.html"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
   },
   "keywords": [],
   "author": "",
